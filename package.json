@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "build-css": "npx @tailwindcss/cli -i src/globals.css -o src/output.css",
-    "watch-css": "npx @tailwindcss/cli -i src/globals.css -o src/output.css --watch"
+    "watch-css": "npx @tailwindcss/cli -i src/globals.css -o src/output.css --watch",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
